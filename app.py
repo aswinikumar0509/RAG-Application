@@ -19,7 +19,7 @@ load_dotenv()
 os.environ['GROQ_API_KEY']=os.getenv("GROQ_API_KEY")
 groq_api_key=os.getenv("GROQ_API_KEY")
 
-## If you do not have open AI key use the below Huggingface embedding
+
 os.environ['hf_token']=os.getenv("hf_token")
 embeddings=HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
 
