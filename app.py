@@ -20,7 +20,6 @@ load_dotenv()
 groq_api_key=os.getenv("GROQ_API_KEY")
 
 
-# os.environ['hf_token']=os.getenv("hf_token")
 hf_api_key=os.getenv("hf_token")
 embeddings=HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
 
